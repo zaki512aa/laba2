@@ -24,6 +24,9 @@
 7 <img width="242" height="168" alt="image" src="https://github.com/user-attachments/assets/322be131-4fea-47df-9774-081c43cd24eb" /> значения 
 одинаковы в каждом примере
 
+8 <img width="265" height="337" alt="image" src="https://github.com/user-attachments/assets/1567d6ba-8314-485a-84b6-38d5970ec99e" />
+
+
 
 
 
