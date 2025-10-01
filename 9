@@ -9,10 +9,12 @@ int main() {
     cout << "vvedite y: " << endl;
     cin >> y;
     bool vnutri = 0;
+    // полукруг
     if (x >= 0 && x <= 1) {
         if (x * x + y * y <= 1)
             vnutri = 1;
     }
+    // треугольник
     if (x >= -2 && x <= 0) {
         double y_verh = 0.5 * (x + 2);
         double y_niz = -0.5 * (x + 2);
