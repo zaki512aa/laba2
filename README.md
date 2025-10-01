@@ -21,7 +21,8 @@
 
 6 <img width="525" height="224" alt="image" src="https://github.com/user-attachments/assets/f15e95fd-2461-40b3-9d36-651412184a05" />
 
-7 WHILE <img width="242" height="168" alt="image" src="https://github.com/user-attachments/assets/322be131-4fea-47df-9774-081c43cd24eb" />
+7 <img width="242" height="168" alt="image" src="https://github.com/user-attachments/assets/322be131-4fea-47df-9774-081c43cd24eb" /> значения 
+одинаковы в каждом примере
 
 
 
