@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double x, y;
+    cout << "vvedite x: " << endl;
+    cin >> x;
+    cout << "vvedite y: " << endl;
+    cin >> y;
+    bool vnutri = 0;
+    if (x >= 0 && x <= 1) {
+        if (x * x + y * y <= 1)
+            vnutri = 1;
+    }
+    if (x >= -2 && x <= 0) {
+        double y_verh = 0.5 * (x + 2);
+        double y_niz = -0.5 * (x + 2);
+        if (y >= y_niz && y <= y_verh)
+            vnutri = 1;
+    }
+    if (vnutri)
+        cout << "prin" << endl;
+    else
+        cout << "ne prin" << endl;
+
+    return 0;
+}
