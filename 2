@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Vvedite chislo <=9999: " << endl;
+    cin >> n;
+
+        if (n > 9999) {
+            cout << "Chislo bolshe 9999" << endl;
+            return 0;
+        }
+    int orig = n;
+    int perevertish = 0;
+    while (n > 0) {
+        perevertish = perevertish * 10 + n % 10;
+        n /= 10;
+    }
+    if (orig == perevertish)
+        cout << "eto palindrom" << endl;
+    else
+        cout << "eto ne palindrom" << endl;
+
+    return 0;
+}
